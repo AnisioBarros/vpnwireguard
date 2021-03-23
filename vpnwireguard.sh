@@ -24,7 +24,7 @@ stop)
             sudo systemctl stop wg-quick@wg0
         fi ;;
 status) sudo wg show ;;
-*) echo "Erro" ;;
+*) echo "*) echo "Argumento Inválido. Use stop, start ou status" ;;" ;;
 esac
 
 
