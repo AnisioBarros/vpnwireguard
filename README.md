@@ -15,7 +15,7 @@ sudo chmod +x /usr/bin/vpnwireguard
 - Verifique se o arquivo está no diretorio:
 
 ```
-/etc/wireguard/
+ls /etc/wireguard/
 ```
 
 - Verifique se o nome do arquivo é:
